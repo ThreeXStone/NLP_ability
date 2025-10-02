@@ -12,3 +12,8 @@
 ```
 pip install <安装包> -i <镜像源>
 ```
+
+**永久更换pip镜像源**
+```
+pip config set global.index-url https://pypi.tuna.tsinghua.edu.cn/simple
+```
